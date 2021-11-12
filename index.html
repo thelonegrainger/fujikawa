@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.typekit.net/sts0vih.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-info">
+      <h1>Kevin D. Fujikawa, MD</h1>
+      <h2>Kristen Waggoner, PA-C</h2>
+    </div>
+    <div style="position: relative;">
+      <img src="img/team.jpg" id="team">
+      <img src="img/flap.svg" id="mobile-flap">
+      <img src="img/flap.svg" id="flap">
+    </div>
+  </div>
+  <section class="bio">
+    <div class="center-row">
+      <div id="title1">
+        <div class="pre"></div>
+        <h1>Kevin D. Fujikawa, MD</h1>
+        <div class="post"></div>
+      </div>
+      <div class="bio-wrap">
+        <img src="img/drfujikawa.jpg" id="drfujikawa">
+        <img src="img/drfujikawamob.jpg" id="drfujikawamob">
+        <div class="text-wrap">
+          <p class="quote">We are dedicated to providing patients with high quality care and the commitment to improve and maintain the health of our patients.</p>
+          <p class="quote-text">Dr. Fujikawa graduated from Loma Linda University School of Medicine in 1985. He completed his residency at Loma Linda University and Riverside <span id="moreText1">General Hospital in southern California and is board certified in family practice. After moving to northern California with his wife and daughter he joined the family practice group at MedClinic and was there for 12 years. He then went into private practice. In 2003, Dr. Fujikawa opened his current family practice office in Fair Oaks. He is a Hill Physicians provider and also accepts many private insurances.</span></p>
+          <div id="fadeMore1"></div>
+          <a id="readMore1" onclick="readMore(1);">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bio">
+    <div class="center-row">
+      <div id="title2">
+        <div class="pre"></div>
+        <h1>Kristen Waggoner, PA-C</h1>
+        <div class="post"></div>
+      </div>
+      <div class="bio-wrap">
+        <img src="img/kristen.jpg" id="kristen">
+        <img src="img/kristenmob.jpg" id="kristenmob">
+        <div class="text-wrap">
+          <p class="quote">It has been very rewarding building lasting relationships with our patients and treating multiple generations within the same family. I feel privileged to be able to care for the health and well-being of our patients.</p>
+          <p class="quote-text">Kristen received her BS in Molecular, Cellular, and Developmental Biology at UCSB, then got her Masters of <span id="moreText2">Physician Assistant Studies at Samuel Merritt University. Prior to joining the Fujikawa team, she worked in family practice and urgent care. Kristen has been working with Dr. Fujikawa since 2013.  She enjoys baking and spending time with her family, puppy and kitties.</span></p>
+          <div id="fadeMore2"></div>
+          <a id="readMore2" onclick="readMore(2);">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map">
+    <iframe src="https://snazzymaps.com/embed/349284" width="100%" height="650px" style="border:none;"></iframe>
+    <section class="contact">
+      <div class="center-row">
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <div>
+            <p>Phone: <b>916.966.8158</b></p>
+            <p>Fax: 916.966.8118</p>
+            <p>Email: office@drfujikawa.com</p>
+          </div>
+          <div>
+            <p>4944 Sunrise Blvd Ste H</p>
+            <p>Fair Oaks, CA 95628</p>
+          </div>
+          <div>
+            <p>After hours: 916.966.8158</p>
+          </div>
+
+          <h3>Office Hours</h3>
+          <div>
+            <p>Monday - Wednesday:</p>
+            <p>8:00 - 4:45</p>
+          </div>
+          <div>
+            <p>Thursday: 7:30 - 4:00</p>
+          </div>
+          <div>
+            <p>Friday: 7:30 - 12:00</p>
+          </div>
+          <div>
+            <p>Closed for Lunch:</p>
+            <p>11:45 - 1:30</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="buttons">
+    <div class="center-row">
+      <a href="docs/new-patient-packet-fujikawa.pdf" target="_blank">
+        <img src="img/doc.svg" width="26.44px" height="30.85px">
+        <div>New Patient Packet</div>
+      </a>
+      <a href="docs/medical-records-release-authorization.pdf" target="_blank">
+        <img src="img/doc.svg" width="26.44px" height="30.85px">
+        <div>Medical Records<br>Release Form</div>
+      </a>
+      <a href="https://secure.axiaepay.com/pay/2nkt6jxbrwzd5pd4g/VNaa83z9">
+        <img src="img/card.svg" width="30.85px" height="23.14px">
+        <div>Make Payment</div>
+      </a>
+    </div>
+  </section>
+  <footer>
+    <div class="center-row">
+      <div class="imgs-wrap">
+        <img src="img/abfm.png" id="abfm">
+        <img src="img/aafp.png" id="aafp1">
+        <img src="img/hill.png" id="hill">
+      </div>
+      <div class="img-wrap">
+        <img src="img/aafp.png" id="aafp">
+      </div>
+      <div class="mobile-separator"></div>
+      <div class="footer-contact">
+        <h1>916.966.8158</h1>
+        <a href="docs/notice-privacy-practice.pdf" target="_blank">Office Privacy Policy</a>
+        <p>© <span id="year">2021</span> Kevin D. Fujikawa, MD</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    function readMore(id) {
+      var moreText = document.getElementById("moreText" + id);
+      if (moreText.classList.contains("reading")) {
+        moreText.classList.remove("reading");
+        document.getElementById("readMore" + id).textContent = "Read More";
+        document.getElementById("fadeMore" + id).style.display = "";
+      } else {
+        moreText.classList.add("reading");
+        document.getElementById("readMore" + id).textContent = "Read Less";
+        document.getElementById("fadeMore" + id).style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
