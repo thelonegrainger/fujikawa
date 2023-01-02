@@ -13,7 +13,6 @@ img#flap {
   display: none;
 }
 #team {
-
   position: relative;
   left: 50%;
   right: 50%;
@@ -443,10 +442,12 @@ footer .center-row p {
   section.contact > .center-row {
     display: flex;
     justify-content: flex-start;
+    pointer-events: none;
   }
   .contact-info {
     width: 100%;
     max-width: 378px;
+    pointer-events: all;
   }
   section.contact {
     position: absolute;
@@ -454,6 +455,7 @@ footer .center-row p {
     width: 100%;
     display: flex;
     justify-content: center;
+    pointer-events: none;
   }
   section.bio p.quote {
     font-size: 30px;
