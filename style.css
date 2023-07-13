@@ -13,6 +13,7 @@ img#flap {
   display: none;
 }
 #team {
+
   position: relative;
   left: 50%;
   right: 50%;
@@ -31,8 +32,8 @@ img#flap {
 }
 .header-info h1 {
   font-family: 'proxima-nova', sans-serif;
-  font-weight: normal;
-  font-size: 29px;
+  font-weight: bold;
+  font-size: 30px;
   text-align: center;
   color: #2e4264;
   margin: 0;
@@ -183,6 +184,7 @@ section.contact {
   width: 100%;
   display: flex;
   justify-content: center;
+  pointer-events: none;
 }
 section.contact > .center-row {
   display: flex;
@@ -442,7 +444,6 @@ footer .center-row p {
   section.contact > .center-row {
     display: flex;
     justify-content: flex-start;
-    pointer-events: none;
   }
   .contact-info {
     width: 100%;
@@ -455,7 +456,6 @@ footer .center-row p {
     width: 100%;
     display: flex;
     justify-content: center;
-    pointer-events: none;
   }
   section.bio p.quote {
     font-size: 30px;
